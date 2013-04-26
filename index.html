@@ -39,10 +39,24 @@
   The way I created it was by creating a new repo then going to Settings, then making an auto page.
 </p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+
+<p>
+  To upate, first clone the git to your computer:
+</p>
+<pre><code>git clone https://github.com/ccom3033/myTestRepo.git
 </code></pre>
+
+<p>
+Then:
+</p>
+<pre><code>cd your_repo_root/repo_name
+git fetch origin
+git checkout gh-pages
+git push origin gh-pages
+</code></pre>
+
+
+
 
 <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
